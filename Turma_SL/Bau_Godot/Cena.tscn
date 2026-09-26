@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cgqj1toah4lqb"]
+
+[ext_resource type="PackedScene" uid="uid://b0ed0e7qhnk41" path="res://Bau.tscn" id="1_sc55x"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_17qcf"]
+
+[node name="Node3D" type="Node3D" unique_id=1466294169]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1972610054]
+transform = Transform3D(1, 0, 0, 0, -0.022983955, 0.99973583, 0, -0.99973583, -0.022983955, 0, 9.98491, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=794655200]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+mesh = SubResource("PlaneMesh_17qcf")
+
+[node name="Loops2" parent="." unique_id=1483454944 instance=ExtResource("1_sc55x")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.60849017, 1.1408298, -0.21830654)

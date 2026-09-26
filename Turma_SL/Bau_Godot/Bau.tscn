@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://b0ed0e7qhnk41"]
+
+[ext_resource type="PackedScene" uid="uid://dgu8xwcnursxi" path="res://Loops2.glb" id="1_54f5x"]
+
+[node name="Loops2" unique_id=1483454944 instance=ExtResource("1_54f5x")]
